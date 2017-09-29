@@ -4,6 +4,11 @@
     {
       "uri": "main",
       "pkg": "com.mars.appmain"
+    },
+    {
+      "uri": "lib.style",
+      "type": "lib",
+      "pkg": "com.mars.libstyle"
     }
   ]
 }

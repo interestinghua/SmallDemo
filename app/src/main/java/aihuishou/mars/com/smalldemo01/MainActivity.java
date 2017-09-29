@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onComplete() {
                 Small.openUri("main", MainActivity.this);
+                Small.openUri("lib.style",MainActivity.this);
             }
         });
     }
