@@ -14,4 +14,10 @@ public class SmallApp extends Application {
     public SmallApp() {
         Small.preSetUp(this);
     }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Small.preSetUp(this);
+    }
 }
